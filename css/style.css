@@ -85,10 +85,13 @@ body {
   display: inline-block;
   padding: 13px 25px;
 }
-.footer a {
+.footer a, p {
   font-family: sans-serif;
   font-size: 14px;
   color: #484848;
+}
+.footer a:hover {
+  text-decoration: underline;
 }
 .footer li:last-child {
   float: right;
